@@ -673,7 +673,7 @@ if (isset($_GET['logout'])) {
     </footer>
 
     <script>
-        const API_KEY = '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';
+        const API_KEY = 'apikey';
         const API_URL = 'https://openrouter.ai/api/v1/chat/completions';
         const MODEL = 'deepseek/deepseek-r1-0528:free';
         let isProcessing = false;
@@ -835,4 +835,5 @@ if (isset($_GET['logout'])) {
         window.onload = scrollToBottom;
     </script>
 </body>
+
 </html>
